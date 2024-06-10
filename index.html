@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTU Survival Guide | Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Icons Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+  <body class="star-background">
+    <!-- Header or Navbar -->
+    <header class="header "> 
+      
+      <nav class="navbar max-width">
+        <a href="#" class="logo">PTU Survival Guide</a>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="notes.html">Notes</a></li>
+          <li><a href="tips.html">Tips</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="btn signin"><a href="signIn.html">Sign In</a></li>
+          <li class="btn join"><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+      <div class="close-btn" onclick="toggleSidebar()"></div>
+      <div class="content">
+          <h3>Features</h3>
+          <ul class="link">
+              <li><a href="handwritten-notes.html">Handwritten Notes</a></li>
+              <li><a href="typed-notes.html">Typed Notes</a></li>
+              <li><a href="tips.html">Tips</a></li>
+              <li><a href="projects.html">Projects</a></li>
+          </ul>
+      </div>
+  </div>
+
+    <!-- Hero section -->
+    <section class="hero">
+       <div class="content max-width">
+        <h2>A backbencher's guide to pass your exams!</h2>
+        <div class="search-field">
+          <input type="text" id="search-input" placeholder="Search for any service..." aria-label="Search">
+          <button class="material-symbols-outlined search-btn" aria-label="Search button" onclick="performSearch()">search</button>
+        </div>
+        <div id="search-results" class="search-results"></div>
+        <div class="popular-tags">
+          Popular:
+          <ul class="link">
+            <li><a href="handwritten-notes.html">Handwritten Notes</a></li>
+            <li><a href="">Typed Notes</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </div>
+       </div>
+       
+    </section>
+
+    <script src="script.js"></script>
+
+   
+  </body>
+</html>

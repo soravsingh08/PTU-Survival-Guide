@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy and Sell Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="star-background">
+    <header class="header">
+        <nav class="navbar max-width">
+            <a href="#" class="logo">PTU Survival Guide</a>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="tips.html">Tips</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li class="btn signin"><a href="signin.html">Sign In</a></li>
+                <li class="btn join"><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="projects-section">
+       
+        
+        <div class="project-form">
+            <h3>Add a New Project</h3>
+            <form id="projectForm">
+                <input type="text" id="projectName" placeholder="Project Name" required>
+                <textarea id="projectDescription" placeholder="Project Description" required></textarea>
+                <input type="number" id="projectPrice" placeholder="Price (in INR)" required>
+                <button type="submit">Add Project</button>
+            </form>
+        </div>
+
+        <div class="project-list">
+            <h3>Available Projects</h3>
+            <ul id="projects">
+                <!-- Prewritten project tips will be listed here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
